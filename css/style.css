@@ -1,0 +1,106 @@
+body{
+	margin:0px;
+	font-family:"微软雅黑";
+	font-weight:bold;
+	color:white;
+	background-image:url("../img/background.png");
+	background-repeat: no-repeat;
+	background-position-x: center;
+	background-position-y:top;
+	background-color:#b7dce1;
+	min-height:952px;
+	text-align: center;		
+}
+#share-weibo-button{
+	height:0px;
+	overflow:hidden;
+}
+.clearfix:after {       /*在类名为“clearfix”的元素内最后面加入内容；*/
+	
+	 content: ".";     /*内容为“.”就是一个英文的句号而已。也可以不写。*/
+	
+	 display: block;   /*加入的这个元素转换为块级元素。*/
+	
+	 clear: both;     /*清除左右两边浮动。*/
+	
+	 visibility: hidden;     /*可见度设为隐藏。注意它和display:none;是有区别的。visibility:hidden;仍然占据空间，只是看不到而已；*/
+	
+	 line-height: 0;    /*行高为0；*/
+	
+	 height: 0;     /*高度为0；*/
+	
+	 font-size:0;    /*字体大小为0；*/
+	
+}
+#cong{
+	font-size:40px;
+	margin-top:230px;
+	margin-bottom:20px;
+}
+#gong{
+	font-size:28px;
+	margin-top:0px;
+	margin-bottom:0px;
+}
+#shar{
+	font-size:20px;
+}
+#num-wrap{
+	margin-top:70px;
+	margin-bottom:60px;
+	width:655px;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+#num-wrap span.maohao{
+	color:white;
+	font-size:72px;
+	text-shadow:5px 5px 2px #80bfc9;
+	margin-left:10px;
+	margin-right:10px;
+	float:left;
+}
+
+#num-wrap span.num{
+	background-image: url("../img/num-bg.png");
+	width:82px;
+	height:111px;
+	float:left;
+	margin-left:15px;
+	margin-right:15px;
+}
+.num i{
+	background-image:url("../img/number.png");
+	width:43px;
+	height:70px;
+	float:left;
+	margin-left:17px;
+	margin-top:20px;
+}
+#share-wrap{
+	width:400px;
+	margin-left:auto;
+	margin-right:auto;
+}
+#share-intro{
+	float:left;
+	line-height:75px;
+	font-size:28px;
+}
+.share{
+	width:75px;
+	height:75px;
+	background-position: center bottom;
+	margin-left:40px;
+	float:left;
+	background-repeat: no-repeat;
+	cursor:pointer;
+}
+#weibo{
+	background-image:url("../img/weibo.png");
+}
+#renren{
+	background-image:url("../img/renren.png");
+}
+
